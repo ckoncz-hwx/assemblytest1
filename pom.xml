@@ -16,7 +16,7 @@
 			<plugin>
 				<artifactId>maven-assembly-plugin</artifactId>
 				<configuration>
-				<descriptor>empty-assembly.xml</descriptor>
+					<skipAssembly>true</skipAssembly>
 				</configuration>
 			</plugin>
 		</plugins>
