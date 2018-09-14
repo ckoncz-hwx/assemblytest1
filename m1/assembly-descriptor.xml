@@ -1,0 +1,21 @@
+<assembly>
+	<id>docs</id>
+	<formats>
+		<format>dir</format>
+		<format>zip</format>
+	</formats>
+	<includeBaseDirectory>false</includeBaseDirectory>
+	<files>
+		<file>
+			<source>assembly-descriptor.xml</source>
+			<outputDirectory>/</outputDirectory>
+		</file>
+	</files>
+	<fileSets>
+		<fileSet>
+			<directory>${basedir}/target/${project.artifactId}-${project.version}
+			</directory>
+			<outputDirectory>/</outputDirectory>
+		</fileSet>
+	</fileSets>
+</assembly>
