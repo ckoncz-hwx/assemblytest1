@@ -9,14 +9,4 @@
 		<groupId>com.ck</groupId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<build>
-		<plugins>
-			<plugin>
-				<artifactId>maven-assembly-plugin</artifactId>
-				<configuration>
-					<skipAssembly>true</skipAssembly>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
 </project>
